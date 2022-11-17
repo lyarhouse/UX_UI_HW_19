@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+<body>
+<!-- Navbar -->
+<header>
+  <nav>
+  <div class="inline-block">
+      <img class="logo"src="Images/logoimage.png">  
+  <nav class="menuList">
+      <ul>
+          <li>About Me</li>
+          <li>Skills</li>
+          <li>Work</li>
+          <li>Contact</li>
+          <li>Socials</li>
+      </ul>
+  </div>
+  </nav>
+</header>
+<section class="herolmg">
+  <div class="content">
+      <img class="profile"src="images/profileimage.JPG">
+      <br>
+     <p class="aboutMe">Hi there! My name is Lynnea and I am a UX/UI Researcher and Designer.</p>
+     <button type="button" class="hoverito">Download Resume</button>
+ </div>
+</section>
+
+<!--My UX Skills section coded using CSS Flex-->
+<section class="mySkills">
+  <div class="flexContainer">
+    <div class="tentarine">
+    <img class="uxskills" src="../UX_UI_HW_18/images/uxskills.png" height="200px" width="400px">
+  </div>
+  </div> 
+    <div class="try">
+  <div class="flexContainer">
+    <img src="/images/research.jpg" height="200px" width="300px">
+      <h3>User Research</h3>
+      <p>I like to establish the population and demographic of those wanting to use a certain product via surveys to get a general consensus of who my target audience will be.</p>
+    </div>
+  <div class="flexContainer">
+    <img src= "/images/empathy.png" height="200px" width=300px">
+      <h3>User Empathy</h3>
+      <p>I like to ask a lot of “who, what, when, where and why?” questions to get a more wholistic view of the users I may be working with.</p>
+  </div>
+  <div class="flexContainer">
+    <img src="/images/interviews.jpg" height="200px" width="300px">
+      <h3>Qualitative Interviews </h3>
+      <p>I like having informal interviews when asking for feedback for a project I am working on because I want to make sure those being interviewed feel safe enough to share their thoughts and concerns.</p>
+    </div>
+  </div>
+</section>
+
+<h3>My Featured Projects</h3> 
+
+<!--My Work section constructed using CSS Grid-->
+<section id="myWork">
+  <h1 MyWork></h1>
+  <div class="workGrid">
+    <div class="flexContainer2">
+      <img class="zen" src="../UX_UI_HW_18/images/zen logo.png" height="200px" width="200px"> 
+          <div>
+              <h4>Zen Group Project</h4>
+              <p>This group project involves an app that focuses on self-care because daily living is stressful in itself.  We wanted to create a space for people to go and be able to unwind and relax based on their needs.</p>
+              <button>View Project Here</button>
+          </div>
+    </div>
+  </div>
+
+  <div class="workGrid">
+    <div class="flexContainer2">
+      <img class="hfh" src="../UX_UI_HW_18/images/hfh logo.png" height="200px" width="200px">
+          <div>
+              <h4>Habitat for Humanity Group Project</h4>
+              <p>This group project involves redesigning a nonprofit website. We want users to easily access information regarding local organizations and find communities that they are interested in volunteering in.</p>
+              <button>View Project Here</button>
+          </div>
+      </div>
+  </div>
+
+  <a href="http://127.0.0.1:5500/index.html#" button>See More Projects</button>
+    </a>
+
+<footer>
+  <div class="inline-block">
+      <img class="logo"src="Images/logoimage.png">  
+  <nav class="menuList">
+       <ul>
+          <li>About Me</li>
+          <li>Skills</li>
+          <li>Work</li>
+          <li>Contact</li>
+          <li>Socials</li>
+      </ul>
+  </nav>
+  </div>  
+</footer>
+  </body>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="js/index.js"></script>  
+</html>
