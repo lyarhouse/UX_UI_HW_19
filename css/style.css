@@ -1,0 +1,171 @@
+.inline-block {
+    display: flex;
+    flex-direction: row;
+    margin: 15px;
+    background-color: #F8742A;
+  }
+  
+  .menuList {
+    display: flex;
+    vertical-align: top;
+    text-decoration-color: white;
+  }
+
+  ul {
+    display: row;
+    color: white; 
+    float: right;
+  }
+  
+  li {
+    float: left;
+    display: block;
+    padding: 10px;
+    background-color: white #F8742A;
+    font-size: 25px;
+  }
+  
+  .profile {
+    display: inline-block;
+    vertical-align: top;
+    width: 200px;
+    padding-left: 150px;
+  }
+  
+  .logo {
+    width: 10%;
+    height: auto;
+    padding: 1%;
+    text-align: center;
+  }
+  
+  .navigation {
+    width: 73%;
+    padding: 1%;
+  }
+  
+  .content {
+    width: 500px;
+    margin: 0 auto;
+    text-align: auto;
+  }
+  
+  footer {
+    style: none;
+  }
+  
+  p .aboutMe {
+    text-align: center;
+  }
+
+  button {
+    background-color: #F8742A;
+    border-color: red;
+    border-radius: 10cm;
+  }
+  
+  button.foo { 
+    background-color: white; 
+    color: #000;
+  }
+
+  .try {
+    display: flex;
+  }
+
+  .flexContainer {
+    display: row;
+    width: 50%;
+    padding: 2%;
+    text-align: center;
+  }
+
+  .flexContainer2 {
+    display: column;
+    width: 100%;
+    padding: 2%;
+    text-align: center;
+  }
+  
+  .flexDirection {
+    display: auto;
+  }
+
+  h3 {
+    color: #F8742A;
+  }
+
+  h4 {
+    color: #F8742A;
+  }
+  
+  .workGrid {
+    display: flex;
+    text-align: center;
+    justify-content: auto;
+    grid-template-areas: 'mySkills';
+    grid-template-rows: column;
+    grid-template-columns: center;
+  }
+  
+  .uxSkills {
+    width: 10%;
+    height: auto;
+    padding: 5%;
+    text-align: center;
+  }
+  
+  .uxSkills img{
+    width: 400px;
+    height: 200px;
+    margin-left: 250px;
+  }
+
+  .tentarine {
+    margin-left: 450px;
+  }
+  
+  .myWork {
+    width: 10%;
+    height: auto;
+    padding: 5%;
+    text-align: center;
+    float: left;
+  }
+  
+  .myWork img{
+    width: 100px;
+    height: 100px;
+    padding: 5%;
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .item1 {
+    grid-area: 'mySkills';
+  }
+  
+  .item2 {
+    grid-area: 'myWork';
+  }
+  
+  #categoryGrid {
+    margin: 10px 5%;
+    display: grid;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 50% 50%;
+    grid-template-areas:
+    'mySkills'
+    'myWork';
+  }
+  
+  @media only screen and (max-width: 600){
+    #categoryGrid {
+       grid-template-rows: 300px 300px 300px
+       300px 300px;
+       grid-template-columns: 1fr 1fr;
+       grid-template-areas:
+       'mySkills'
+       'myWork';
+    }
+  }
